@@ -41,7 +41,6 @@ export default function App() {
     axios.post('fakeapi.com', newFriend)
       .then(res => {
         // setFriends(friends.concat(res.data))
-        debugger
         setFriends([ res.data, ...friends])
         setFormValues(initialFormValues)
       })
