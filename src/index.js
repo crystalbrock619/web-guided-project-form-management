@@ -30,7 +30,7 @@ function SimpleForm() {
       }
 
       <form>
-        <input type="text"/>
+        <input name='petName' type="text" />
       </form>
     </div>
   )
