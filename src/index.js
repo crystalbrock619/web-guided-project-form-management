@@ -26,7 +26,11 @@ function SimpleForm() {
   }
   const submit = evt => {
     // submit code
-    const newPet = { petName: formValues.petName.trim(), petType: formValues }
+    const newPet = {
+      petName: formValues.petName.trim(),
+      petType: formValues.petType.trim(),
+    }
+    setPets
   }
 
   return (
