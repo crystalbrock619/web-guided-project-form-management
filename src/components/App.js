@@ -26,6 +26,11 @@ export default function App() {
 
   const submitForm = () => {
     // 🔥 STEP 9 - IMPLEMENT a submit function which will be used inside the form's own `onSubmit`
+    const newFriend = {
+      username: values.username.trim(),
+      email: values.email.trim(),
+      role: values.role.trim()
+    }
     //  a) make a new friend object, trimming whitespace from username and email
     //  b) prevent further action if either username or email or role is empty string after trimming
     //  c) POST new friend to backend, and on success update the list of friends in state with the new friend from API
