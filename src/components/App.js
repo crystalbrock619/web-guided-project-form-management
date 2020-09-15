@@ -40,7 +40,8 @@ export default function App() {
     //  d) also on success clear the form
     axios.post('fakeapi.com', newFriend)
       .then(res => {
-        setFriends(friends.concat(res.data))
+        // setFriends(friends.concat(res.data))
+        setFriends([ newFriend, ...friends])
         setFormValues(initialFormValues)
       })
       .catch(err => {
