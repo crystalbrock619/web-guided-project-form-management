@@ -55,8 +55,9 @@ export default function FriendForm(props) {
         {/* ////////// DROPDOWN ////////// */}
         <label>Role
           {/* 🔥 STEP 5 - Make dropdown for role. */}
-          <select name='role' value={values.role}>
-
+          <select name='role' value={values.role} onChange={onChange}>
+              <option value="">-- select role --</option>
+              <option value="">-- select role --</option>
           </select>
         </label>
 
