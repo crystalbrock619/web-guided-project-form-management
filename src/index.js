@@ -30,7 +30,9 @@ function SimpleForm() {
       petName: formValues.petName.trim(),
       petType: formValues.petType.trim(),
     }
-    setPets
+    // setPets(pets.concat(newPet))
+    setPets([...pets, newPet])
+    setFormValues(initialFormValues)
   }
 
   return (
