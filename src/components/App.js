@@ -46,6 +46,7 @@ export default function App() {
       })
       .catch(err => {
         debugger
+        // things like backend rejecting the POST because duplicate username etc
       })
   }
 
