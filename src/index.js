@@ -49,7 +49,6 @@ function SimpleForm() {
       <form onSubmit={submit}>
         <input name='petName' type="text" value={formValues.petName} onChange={change} />
         <input name='petType' type="text" value={formValues.petType} onChange={change} />
-
         <button>submit</button>
       </form>
     </div>
