@@ -30,7 +30,7 @@ function SimpleForm() {
       }
 
       <form>
-        <input name='petName' type="text" value={formValues.petName} />
+        <input name='petName' type="text" value={formValues.petName} onChange={change} />
       </form>
     </div>
   )
