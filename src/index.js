@@ -25,7 +25,7 @@ function SimpleForm() {
 
       {
         pets.map((pet, idx) => {
-          
+          return <div key={pet.id}>{pet.petName} is a {pet.petType}</div>
         })
       }
     </div>
