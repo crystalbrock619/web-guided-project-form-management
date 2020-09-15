@@ -11,7 +11,7 @@ const petsList = [
 ]
 
 const initialFormValues = {
-  petName: '',
+  petName: 'Tom',
   petType: '',
 }
 
@@ -30,7 +30,7 @@ function SimpleForm() {
       }
 
       <form>
-        <input name='petName' type="text" />
+        <input name='petName' type="text" value={formValues.petName} />
       </form>
     </div>
   )
