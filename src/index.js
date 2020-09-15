@@ -21,7 +21,7 @@ function SimpleForm() {
 
   const change = evt => {
     // change code
-    debugger
+    const { name, value } = evt.target
   }
   const submit = evt => {
     // submit code
