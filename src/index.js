@@ -20,7 +20,15 @@ function SimpleForm() {
   const [formValues, setFormValues] = useState(initialFormValues)
 
   return (
-    <div className='con'></div>
+    <div className='container'>
+      <h1>Simple Form</h1>
+
+      {
+        pets.map((pet, idx) => {
+          
+        })
+      }
+    </div>
   )
 }
 
